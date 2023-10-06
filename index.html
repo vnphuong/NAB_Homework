@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav>
+        <div style="margin-top: 10px; font-size: 35px;">Nhu Phuong.</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Profile -->
+    <section id="profile">
+        <img id="introPic" src="/resoure/IntroPic.jpeg" alt="">
+        <div id="sectionIntro">
+            <p>Hello, I'm</p>
+            <h1>Nhu Phuong</h1>
+            <h2>QUALITY ENGINEER</h2>
+            <div style="display: flex; justify-content: center; gap: 15px;">
+                <button onclick="window.open('./resoure/VoNhuPhuong_CV.pdf')">Download CV</button>
+                <button style="background-color:black;color: white;" 
+                onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" style="text-align: center;">
+        <h2>Get to know more</h2>
+        <h1> About me </h1>
+        <div id="sectionAbout">
+            <img id="aboutPic" src="resoure/aboutPic.jpeg" alt="">
+            <div style="display: flex;flex-direction: column; width: 500px;margin-left: 50px;gap: 20px;">
+                <div style="width: 500px;;display: flex; justify-content: space-evenly;">
+                    <div id="experience">
+                        <img id="icon" src="/resoure/medal-fill.png" alt="">
+                        <h3>Experience</h3>
+                        2 month </br>
+                        Quality Engineer</br>
+                    </div>
+                    <div id="education">
+                        <img id="icon" src="/resoure/medal-fill.png" alt="">
+
+                        <h3>Education</h3>
+                        Bachelor Degree of </br>
+                        Software Engineering</br>
+                    </div>
+                </div>
+                <p style="text-align: left;font-size: 15px;">
+                    I am currently pursuing a degree in Software Engineering with a particular
+                    interest in the field of automated testing. This stems from my passion for
+                    technology and my desire to contribute to improving software quality through
+                    the use of automated testing tools and techniques. I am actively working
+                    towards becoming an expert in this field and making a positive impact
+                    on the software industry's development.
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Experience -->
+
+    <section id="Experience">
+        <h2>Explore My</h2>
+        <h1 style="margin-bottom: 30px;">Experience</h1>
+        <div id="sectionExperience">
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+                <div id="expDetail">
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                </div>
+
+
+            </article>
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+
+                <div id="expDetail">
+
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+            </div>
+
+            </article>
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+
+                <div id="expDetail">
+
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+            </div>
+
+            </article>
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+
+                <div id="expDetail">
+
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+            </div>
+
+            </article>
+
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+
+                <div id="expDetail">
+
+                <h3>Java</h3>
+                <p>Intermediate</p>
+            </div>
+
+            </article>
+
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+
+                <div id="expDetail">
+
+                <h3>Git</h3>
+                <p>Experienced</p>
+            </div>
+
+            </article>
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+
+                <div id="expDetail">
+
+                <h3>ReactNative</h3>
+                <p>Basic</p>
+            </div>
+
+            </article>
+
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+
+                <div id="expDetail">
+
+                <h3>SQL</h3>
+                <p>Experienced</p>
+            </div>
+
+            </article>
+
+            <article>
+                <img id="icon" src="/resoure/shield-check-fill.png" alt="">
+
+                <div id="expDetail">
+
+                <h3>C#</h3>
+                <p>Intermediate</p>
+            </div>
+
+            </article>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Browse My Recent</h2>
+        <h1>Projects</h1>
+
+        <div id="sectionProjects">
+            <div id="projectsDetail">
+                <img id="projectPic" src="/resoure/pizzaApp.png" alt="">
+                <p style="margin-top: 25px;"> Your Own Pizza</p>
+
+                <div id="projectBTN">
+                    <button onclick="location.href='https://github.com/'">Github</button>
+                    <button onclick="location.href='https://www.figma.com/'">Demo</button>
+                </div>
+            </div>
+            <div id="projectsDetail">
+                <img id="projectPic" src="/resoure/MonoLogin.png" alt="">
+                <p style="margin-top: 25px;">Mono Rental</p>
+                <div id="projectBTN">
+                    <button onclick="location.href='https://github.com/'">Github</button>
+                    <button onclick="location.href='https://www.figma.com/'">Demo</button>
+                </div>
+            </div>
+            <div id="projectsDetail">
+                <img id="projectPic" src="/resoure/PlayOn!.jpeg" alt="">
+                <p style="margin-top: 25px;">PlayOn!</p>
+                <div id="projectBTN">
+                    <button onclick="location.href='https://github.com/'">Github</button>
+                    <button onclick="location.href='https://www.figma.com/'">Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <h2>Get me in Touch</h2>
+        
+        <h1> Contact Me </h1>
+        <div id="sectionContact">
+            <img id="icon" src="/resoure/mail-send-fill.png" alt="">
+            vnphuong3001@gmail.com
+            <img id="icon" src="/resoure/cellphone-fill.png" alt="" style="cursor: pointer; margin-left: 40px;">
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul></footer>
+
+</body>
+
+</html>

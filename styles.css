@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    color: gray;
+}
+
+h3 {
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    border-radius: 32px;
+    width: 128px;
+    padding: 16px;
+    background-color: white;
+    border: 1.5px solid;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+#icon{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+
+}
+
+a:hover {
+    color: gray;
+    text-decoration: overline;
+    text-decoration-color: rgb(173, 172, 172);
+}
+
+/* profile */
+#introPic {
+    object-fit: cover;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+#sectionIntro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    text-align: center;
+    gap: 15px;
+}
+
+
+
+/* about */
+#about {
+    height: 90vh;
+    padding: 50px;
+}
+
+#aboutPic {
+    object-fit: cover;
+    width: 450px;
+    height: 550px;
+    border-radius: 35px;
+}
+
+#sectionAbout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+
+}
+
+#experience {
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 24px;
+
+}
+
+#education {
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 24px;
+
+}
+
+/* Experience */
+
+#Experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    padding: 50px;
+}
+
+#sectionExperience {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 300px;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1.5px solid;
+    align-items: center;
+    text-align: left;
+    margin-top: 90px;
+    
+}
+
+article {
+    display: flex;
+    align-items: center;
+
+    
+}
+#expDetail{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    justify-content: space-around;
+    margin-left: 10px;
+
+}
+
+
+
+/* Project */
+#projects{
+    text-align: center;
+    height: 90vh;
+    padding: 50px;
+    
+}
+#sectionProjects {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+
+}
+#projectPic{
+    border-radius: 32px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 25px;
+
+}
+#projectsDetail{
+   height: 500px;
+    border: 1.5px solid;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    
+}
+#projectBTN{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+/* contact */
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    
+    text-align: center;
+}
+#sectionContact{
+    display: flex;
+    justify-content: center;
+    border: black 1.5px solid;
+    border-radius: 50px;
+    width: 350px;
+    padding: 15px;
+    margin-top: 250px;
+    align-items: center;
+    gap: 10px;
+
+    
+
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 20px;
+
+}
